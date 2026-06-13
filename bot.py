@@ -1,7 +1,5 @@
 import logging
 import sqlite3
-import os
-TOKEN = os.environ.get("8863476169:AAGSgDUGYA34EGkgvsSZBOtGLI1OXQLGcYw")
 from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
